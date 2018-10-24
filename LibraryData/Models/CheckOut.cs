@@ -14,6 +14,6 @@ namespace LibraryData.Models
         public LibraryCard LibraryCard { get; set; }
         public DateTime Since { get; set; }
         public DateTime Until { get; set; }
-
+       // public bool CheckedIn { get; set; }
     }
 }

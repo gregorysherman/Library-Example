@@ -80,7 +80,7 @@ namespace LibraryServices
             return book.Any() ? "Book" : "Video";
         }
 
-        public string GetAuthorOrDirection(int id)
+        public string GetAuthorOrDirector(int id)
         {
             bool isBook = context.LibraryAssets.OfType<Book>()
                  .Where(asset => asset.Id == id).Any();

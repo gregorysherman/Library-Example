@@ -12,7 +12,7 @@
                 <th>Dewey Call Number</th>    
             </tr>
             </thead>
-            <body>
+            <tbody>
                 @foreach (var asset in Model.Assets) {
                     <tr class="assetRow">
                         <td class="">
@@ -25,7 +25,7 @@
                         <td class="">@asset.DeweyCallNumber</td>
                     </tr>
                 }
-            </body>
+            </tbody>
             </table>
         </div>
 </div>
